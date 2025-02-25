@@ -1,0 +1,6 @@
+configs.py
+local.db
+.env
+/.venv/
+__pycache__
+.idea

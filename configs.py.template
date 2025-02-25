@@ -1,0 +1,12 @@
+from pymysql.cursors import DictCursor
+
+dbconfig_sakila = {
+            'host': '',
+            'user': 'ich1',
+            'password': '',
+            'database': '',
+            'charset': 'utf8mb4',
+            'cursorclass': DictCursor
+}
+
+dbname_sqlite = "TEST"
