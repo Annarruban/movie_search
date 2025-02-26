@@ -12,8 +12,8 @@ movies = Movies(db_mysql.cursor)
 db_sqlite = DBConnector.connect_sqlite(configs.dbname_sqlite)
 requests_db = Requests(db_sqlite.cursor)
 
-languages = movies.get_languages()
-categories = movies.get_categories()
+languages = [""] + movies.get_languages()
+categories = [""] + movies.get_categories()
 
 def search_movies():
     category = category_var.get() or None
