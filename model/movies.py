@@ -33,7 +33,7 @@ class Movies:
             args.append(language)
 
         if actor:
-            args.append("%" + actor + "%s")
+            args.append("%" + actor + "%")
 
         actors_aggregation = """
             GROUP_CONCAT(CONCAT(actor.first_name, ' ', actor.last_name) 
