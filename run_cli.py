@@ -1,3 +1,6 @@
+#!/usr/bin/python3
+
+
 import argparse
 
 from db_connector import DBConnector
