@@ -29,7 +29,13 @@ A simple movie search application with both a console and graphical user interfa
    sqlite3 local.db < create.sql
    ```
 5. Open `configs.py` and replace the database credentials with your own.
-
+   ```
+   
+6. Create a symbolic link to run the application as `movie` from anywhere:
+   ```sh
+   ln -s $(pwd)/run_cli.py /usr/local/bin/movie
+   chmod +x /usr/local/bin/movie
+   
 ## Usage
 
 ### Console Interface
