@@ -31,18 +31,17 @@ A simple movie search application with both a console and graphical user interfa
 5. Open `configs.py` and replace the database credentials with your own.
    ```
    
-6. Create a symbolic link to run the application as `movie` from anywhere:
+6. Create a symbolic link to run the application as `movies` from anywhere:
    ```sh
    ln -s $(pwd)/run_cli.py /usr/local/bin/movie
-   chmod +x /usr/local/bin/movie
+   chmod +x /usr/local/bin/movies
    
 ## Usage
 
 ### Console Interface
 To run the console interface:
-```sh
-python run_cli.py
-```
+
+movies
 
 ### Graphical Interface
 To run the GUI:
