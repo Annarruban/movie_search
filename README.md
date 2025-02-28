@@ -33,13 +33,17 @@ A simple movie search application with both a console and graphical user interfa
    
 6. Create a symbolic link to run the application as `movies` from anywhere:
    ```sh
-   ln -s $(pwd)/run_cli.py /usr/local/bin/movie
+   ln -s $(pwd)/run_cli.py /usr/local/bin/movies
    chmod +x /usr/local/bin/movies
    
 ## Usage
 
 ### Console Interface
 To run the console interface:
+
+python3 run_cli.py 
+
+or
 
 movies
 
